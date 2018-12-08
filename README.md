@@ -6,7 +6,7 @@ Some useful and open documents.
 #### 使用说明
 
 2018.09.28
-  Processes and Application Lifecycle  _  Android Developers.pdf
+  Processes and Application Lifecycle  _  Android Developers.pdf</br>
   Processes and threads overview  _  Android Developers.pdf
   进程和线程-Android Developers.pdf
   Android学习知识图谱.html 
