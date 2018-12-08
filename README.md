@@ -6,8 +6,11 @@ Some useful and open documents.
 #### 使用说明
 
 2018.09.28
-   Processes and threads overview  _  Android Developers.pdf - Google Android官方文档进程与线程(Processes and Threads)
-   进程和线程  _  Android Developers.pdf - 中文版
+  Processes and Application Lifecycle  _  Android Developers.pdf
+  Processes and threads overview  _  Android Developers.pdf
+  进程和线程-Android Developers.pdf
+  Android学习知识图谱.html 
+  Rx通用请求封装相关/
 
 #### 参与贡献
 
