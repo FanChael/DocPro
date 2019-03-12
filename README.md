@@ -11,6 +11,7 @@ Some useful and open documents.
   进程和线程-Android Developers.pdf<br>
   Android学习知识图谱.html <br>
   Rx通用请求封装相关/<br>
+  PluginTest-Android插件化入门Demo/<br>
 
 #### 参与贡献
 
