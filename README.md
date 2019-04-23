@@ -1,7 +1,7 @@
 # DocPro
 
 #### 项目介绍
-Some useful and open documents.
+Some useful and open documents(欢迎提交更多免费无版权资料).
 
 #### 使用说明
 
