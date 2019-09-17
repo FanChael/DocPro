@@ -49,7 +49,17 @@
 
 配置新的方法
 ```Java
+/*
+ *@Description: 方法url管理+类型转换管理
+ *@Author: hl
+ *@Time: 2018/11/22 16:18
+ */
+public class NetUrlManager {
+    private static HashMap<Class, String> classStringHashMap = new HashMap<Class, String>() {
+        {
             put(xxxxx.class, "test");
+	    }
+	......
 ```
 
 结果回调处理
