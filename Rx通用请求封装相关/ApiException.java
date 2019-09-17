@@ -1,26 +1,20 @@
-package com.lieyunwang.liemine.net;
+package com.xxxx.app.net;
 
 /*
 *@Description: 自定义异常封装
 *@Author: hl
 *@Time: 2018/9/29 15:38
 */
-public class ApiException extends RuntimeException {
-    public static final int ERROR = 1;
-    public static final int TOKEN = 2;
-    public static final int NO_NET = 3;
-    private static String message;
+public class ApiException extends RuntimeException{
+    private String message;
+    private int erroCode;
 
     public ApiException(int resultCode) {
-        this(getApiExceptionMessage(resultCode));
+        getApiExceptionMessage(resultCode, "");
     }
 
     public ApiException(int resultCode, String detailMessage) {
-        this(getApiExceptionMessage(resultCode, detailMessage));
-    }
-
-    public ApiException(String detailMessage) {
-        super(detailMessage);
+        getApiExceptionMessage(resultCode, detailMessage);
     }
 
     @Override
@@ -28,14 +22,8 @@ public class ApiException extends RuntimeException {
         return message;
     }
 
-    /**
-     * 由于服务器传递过来的错误信息直接给用户看的话，用户未必能够理解
-     * 需要根据错误码对错误信息进行一个转换，在显示给用户
-     * @param code
-     * @return
-     */
-    private static String getApiExceptionMessage(int code){
-        return getApiExceptionMessage(code, "");
+    public int getErroCode() {
+        return erroCode;
     }
 
     /**
@@ -44,12 +32,13 @@ public class ApiException extends RuntimeException {
      * @param code
      * @return
      */
-    private static String getApiExceptionMessage(int code, String _message){
+    private void getApiExceptionMessage(int code, String _message){
+        erroCode = code;
         switch (code) {
-            case TOKEN:
+            case ExceptionHandle.ERROR.TOKEN:
                 message = "Token过期";
                 break;
-            case ERROR:
+            case ExceptionHandle.ERROR.REQUEST_ERROR:
                 message = "请求错误";
                 if (null != _message && !_message.equals("")){
                     message = _message;
@@ -59,12 +48,14 @@ public class ApiException extends RuntimeException {
                     }
                 }
                 break;
-            case NO_NET:
+            case ExceptionHandle.ERROR.NO_NETWORK:
                 message = "网络未连接";
+                break;
+            case ExceptionHandle.ERROR.THIRD_BIND:
+                message = "需要绑定";
                 break;
             default:
                 message = "未知错误";
         }
-        return message;
     }
 }

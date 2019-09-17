@@ -1,4 +1,4 @@
-package com.lieyunwang.liemine.net;
+package com.xxxx.app.net;
 
 import com.google.gson.internal.$Gson$Types;
 
@@ -17,7 +17,7 @@ public abstract class ResultCallBack<T> {
         mType = getSuperclassTypeParameter(getClass());
     }
 
-    public static Type getSuperclassTypeParameter(Class<?> subclass) {
+    public Type getSuperclassTypeParameter(Class<?> subclass) {
         Type superClass = subclass.getGenericSuperclass();
         if (superClass instanceof Class) {
             throw new RuntimeException("Missing type parameter.");
@@ -27,5 +27,7 @@ public abstract class ResultCallBack<T> {
                 .canonicalize(parameterized.getActualTypeArguments()[0]);
     }
 
-    //public abstract void onResponse(T response);
+    public Class getClassType(){
+        return getClass();
+    }
 }

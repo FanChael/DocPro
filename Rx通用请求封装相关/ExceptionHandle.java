@@ -1,10 +1,8 @@
-package com.lieyunwang.liemine.net;
+package com.xxxx.app.net;
 
 import android.util.Log;
 
 import com.google.gson.JsonParseException;
-import com.lieyunwang.liemine.R;
-import com.lieyunwang.liemine.mvp.presenter.base.BaseView;
 
 import org.json.JSONException;
 
@@ -29,9 +27,6 @@ public class ExceptionHandle {
     private static final int GATEWAY_TIMEOUT = 504;
 
     public static ResponeThrowable handleException(Throwable e) {
-        return handleException(e, null);
-    }
-    public static ResponeThrowable handleException(Throwable e, BaseView baseView) {
         ResponeThrowable ex;
         Log.e("tag", "e.toString = " + e.toString());
         if (e instanceof HttpException) {
@@ -48,11 +43,7 @@ public class ExceptionHandle {
                 case SERVICE_UNAVAILABLE:
                 default:
                     //ex.code = httpException.code();
-                    if (null != baseView){
-                        ex.message = baseView.resourceId2string(R.string.accout_error);
-                    }else{
-                        ex.message = "连接错误";
-                    }
+                    ex.message = "连接错误";
                     break;
             }
             return ex;
@@ -65,63 +56,28 @@ public class ExceptionHandle {
                 || e instanceof JSONException
             /*|| e instanceof ParseException*/) {
             ex = new ResponeThrowable(e, ERROR.PARSE_ERROR);
-            if (null != baseView){
-                ex.message = baseView.resourceId2string(R.string.parse_error);
-            }else{
-                ex.message = "解析错误";
-            }
+            ex.message = "解析错误";
             return ex;
         } else if (e instanceof ConnectException) {
             ex = new ResponeThrowable(e, ERROR.NETWORK_ERROR);
-            if (null != baseView){
-                ex.message = baseView.resourceId2string(R.string.link_fail);
-            }else{
-                ex.message = "连接失败";
-            }
+            ex.message = "连接失败";
             return ex;
         } else if (e instanceof javax.net.ssl.SSLHandshakeException) {
             ex = new ResponeThrowable(e, ERROR.SSL_ERROR);
-            if (null != baseView){
-                ex.message = baseView.resourceId2string(R.string.verify_error);
-            }else{
-                ex.message = "证书验证失败";
-            }
+            ex.message = "证书验证失败";
             return ex;
         }else if (e instanceof ApiException){
-            if (e.getMessage().contains("Token")){
-                ex = new ResponeThrowable(e, ERROR.TOKEN);
-            }else if (e.getMessage().contains("网络未连接")){
-                ex = new ResponeThrowable(e, ERROR.NO_NETWORK);
-            }else{
-                ex = new ResponeThrowable(e, ERROR.UNKNOWN);
-            }
+            ex = new ResponeThrowable(e, ((ApiException) e).getErroCode());
             ex.message = e.getMessage();
             return ex;
         }else if (e instanceof SocketTimeoutException){
             ex = new ResponeThrowable(e, ERROR.SOCKET_TIMEOUT_ERROR);
-            if (null != baseView){
-                ex.message = baseView.resourceId2string(R.string.time_out);
-            }else{
-                ex.message = "请求超时";
-            }
+            ex.message = "请求超时";
             return ex;
         }
         else if (e instanceof UnknownHostException){
             ex = new ResponeThrowable(e, ERROR.SOCKET_TIMEOUT_ERROR);
-            if (null != baseView){
-                ex.message = baseView.resourceId2string(R.string.cannot_link);
-            }else{
-                ex.message = "无法连接服务器";
-            }
-            return ex;
-        }
-        else if (e instanceof NullPointerException){
-            ex = new ResponeThrowable(e, ERROR.PARMA_ERROR);
-            if (null != baseView){
-                ex.message = baseView.resourceId2string(R.string.params_error);
-            }else{
-                ex.message = "参数错误";
-            }
+            ex.message = "无法连接服务器";
             return ex;
         }
         else {
@@ -137,7 +93,7 @@ public class ExceptionHandle {
      */
     public class ERROR {
         /**
-         * 网络错误
+         * 没网错误
          */
         public static final int NO_NETWORK = 999;
         /**
@@ -172,10 +128,16 @@ public class ExceptionHandle {
          */
         public static final int TOKEN = 110110;
 
+
         /**
-         * NULL_PARAM错误
+         * 请求错误
          */
-        public static final int PARMA_ERROR = 110120;
+        public static final int REQUEST_ERROR = 110113;
+
+        /**
+         * 三方登录后需要绑定
+         */
+        public static final int THIRD_BIND = 110115;
     }
 
     public static class ResponeThrowable extends Exception {
@@ -185,6 +147,10 @@ public class ExceptionHandle {
         public ResponeThrowable(Throwable throwable, int code) {
             super(throwable);
             this.code = code;
+        }
+
+        public int getCode() {
+            return code;
         }
     }
 

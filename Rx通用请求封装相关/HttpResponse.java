@@ -1,13 +1,10 @@
-package com.lieyunwang.liemine.net;
-
-import com.lieyunwang.liemine.anotation.NotProguard;
+package com.xxxx.app.net;
 
 /*
 *@Description: 基础网络数据封装
 *@Author: hl
 *@Time: 2018/9/27 16:16
 */
-@NotProguard
 public class HttpResponse<T> {
     private int code;
     private String message;
