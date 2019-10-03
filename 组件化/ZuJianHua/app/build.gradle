@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.versions["compileSdkVersion"]
+    buildToolsVersion rootProject.ext.versions["buildToolsVersion"]
+    defaultConfig {
+        applicationId rootProject.ext.versions["applicationId"]
+        minSdkVersion rootProject.ext.versions["minSdkVersion"]
+        targetSdkVersion rootProject.ext.versions["targetSdkVersion"]
+        versionCode rootProject.ext.versions["versionCode"]
+        versionName rootProject.ext.versions["versionName"]
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    // 公共依赖库
+    implementation project(path: ':basemodule')
+
+    // 按需依赖加载组件
+    if (!Boolean.valueOf(rootProject.ext.isLoginModule)) {
+        implementation project(':login')
+    }
+    if (!Boolean.valueOf(rootProject.ext.isPersonalModule)) {
+        implementation project(':personal')
+    }
+}

@@ -1,0 +1,58 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "29.0.0"
+
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [AROUTER_MODULE_NAME: project.getName()]
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    // 把implementation 用api代替,它是对外部公开的, 所有其他的module就不需要添加该依赖
+    api rootProject.ext.dependencies["appcompat"]
+    api rootProject.ext.dependencies["constraintlayout"]
+    api rootProject.ext.dependencies["junit"]
+    api rootProject.ext.dependencies["runner"]
+    api rootProject.ext.dependencies["espresso_core"]
+
+    //    //注释处理器，butterknife所必需
+    //    api rootProject.ext.dependencies["support_annotations"]
+    //
+    //    //MultiDex分包方法
+    //    api rootProject.ext.dependencies["multidex"]
+    //
+    //    //Material design
+    //    api rootProject.ext.dependencies["design"]
+    //
+    //    //黄油刀
+    //    api rootProject.ext.dependencies["butterknife"]
+    //    annotationProcessor rootProject.ext.dependencies["butterknife_compiler"]
+
+    //Arouter路由
+    annotationProcessor rootProject.ext.dependencies["arouter_compiler"]
+    api rootProject.ext.dependencies["arouter_api"]
+    //    api rootProject.ext.dependencies["arouter_annotation"]
+}

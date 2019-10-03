@@ -1,0 +1,60 @@
+/**
+ * 全局统一配置
+ */
+ext {
+    /**
+     * module开关统一声明在此处
+     * true：module作为application，可单独打包为apk
+     * false：module作为library，可作为宿主application的组件
+     */
+    isLoginModule = false
+    isPersonalModule = false
+
+    /**
+     * 版本统一管理
+     */
+    versions = [
+            applicationId          : "com.skl.zujianhua",        // 应用ID
+            versionCode            : 1,                         // 版本号
+            versionName            : "1.0.0",                    // 版本名称
+
+            compileSdkVersion      : 28,
+            minSdkVersion          : 15,
+            targetSdkVersion       : 28,
+            buildToolsVersion      : "29.0.0",
+
+            constraintlayoutVersion: "1.1.3",
+            runnerVersion          : "1.0.2",
+            espressoVersion        : "3.0.2",
+            junitVersion           : "4.12",
+            appcompatVersion       : "28.0.0",
+
+            arouterApiVersion      : "1.5.0",
+            arouterCompilerVersion : "1.2.2",
+    ]
+
+    dependencies = [
+            "appcompat"       : "com.android.support:appcompat-v7:${versions["appcompatVersion"]}",
+            "constraintlayout": "com.android.support.constraint:constraint-layout:${versions["constraintlayoutVersion"]}",
+            "runner"          : "com.android.support.test:runner:${versions["runnerVersion"]}",
+            "espresso_core"   : "com.android.support.test.espresso:espresso-core:${versions["espressoVersion"]}",
+            "junit"           : "junit:junit:${versions["junitVersion"]}",
+            // TODO MD等新增支持库
+            //            //注释处理器
+            //            "support_annotations" : "com.android.support:support-annotations:${versions["annotationsVersion"]}",
+            //            "design"              : "com.google.android.material:material:${versions["designVersion"]}",
+
+            // TODO 其他公共的依赖都可以配置到这里
+            //               //方法数超过65535解决方法64K MultiDex分包方法
+            //            "multidex"            : "androidx.multidex:multidex:2.0.0",
+
+            //阿里路由
+            "arouter_api"     : "com.alibaba:arouter-api:${versions["arouterApiVersion"]}",
+            "arouter_compiler": "com.alibaba:arouter-compiler:${versions["arouterCompilerVersion"]}",
+            //            "arouter_annotation"  : "com.alibaba:arouter-annotation:${versions["arouterAnnotationVersion"]}",
+            //
+            //            //黄油刀
+            //            "butterknife"         : "com.jakewharton:butterknife:${versions["butterknifeVersion"]}",
+            //            "butterknife_compiler": "com.jakewharton:butterknife-compiler:${versions["butterknifeVersion"]}"
+    ]
+}
