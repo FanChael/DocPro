@@ -33,6 +33,7 @@ ext {
             arouterCompilerVersion : "1.2.2",
 
             eventbusVersion        : "3.1.1",
+            butterknifeVersion     : "9.0.0",
     ]
 
     dependencies = [
@@ -54,10 +55,10 @@ ext {
             "arouter_api"     : "com.alibaba:arouter-api:${versions["arouterApiVersion"]}",
             "arouter_compiler": "com.alibaba:arouter-compiler:${versions["arouterCompilerVersion"]}",
             //            "arouter_annotation"  : "com.alibaba:arouter-annotation:${versions["arouterAnnotationVersion"]}",
-            //
-            //            //黄油刀
-            //            "butterknife"         : "com.jakewharton:butterknife:${versions["butterknifeVersion"]}",
-            //            "butterknife_compiler": "com.jakewharton:butterknife-compiler:${versions["butterknifeVersion"]}"
+
+            //黄油刀
+            "butterknife"         : "com.jakewharton:butterknife:${versions["butterknifeVersion"]}",
+            "butterknife_compiler": "com.jakewharton:butterknife-compiler:${versions["butterknifeVersion"]}",
 
             "eventbus"        : "org.greenrobot:eventbus:${versions["eventbusVersion"]}",
     ]

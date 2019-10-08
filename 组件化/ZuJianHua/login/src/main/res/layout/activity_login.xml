@@ -7,9 +7,10 @@
     tools:context=".LoginActivity">
 
     <Button
-        android:onClick="logining"
+        android:id="@+id/al_loginBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="logining"
         android:text="点击登录并通知个人中心展示"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

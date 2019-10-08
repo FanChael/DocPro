@@ -25,7 +25,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-
 }
 
 dependencies {
@@ -47,13 +46,13 @@ dependencies {
     //    //Material design
     //    api rootProject.ext.dependencies["design"]
     //
-    //    //黄油刀
-    //    api rootProject.ext.dependencies["butterknife"]
-    //    annotationProcessor rootProject.ext.dependencies["butterknife_compiler"]
+    //黄油刀
+    api rootProject.ext.dependencies["butterknife"]
+    annotationProcessor rootProject.ext.dependencies["butterknife_compiler"]
 
     // Arouter路由
-    annotationProcessor rootProject.ext.dependencies["arouter_compiler"]
     api rootProject.ext.dependencies["arouter_api"]
+    annotationProcessor rootProject.ext.dependencies["arouter_compiler"]
     //    api rootProject.ext.dependencies["arouter_annotation"]
 
     // eventbus

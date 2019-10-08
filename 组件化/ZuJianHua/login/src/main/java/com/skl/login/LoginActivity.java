@@ -3,6 +3,7 @@ package com.skl.login;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
@@ -11,13 +12,21 @@ import com.skl.basemodule.common_interface.IDataCallBack;
 
 import org.greenrobot.eventbus.EventBus;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 @Route(path = "/hl/login")
 public class LoginActivity extends AppCompatActivity {
+    @BindView(R2.id.al_loginBtn)
+    public Button al_loginBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        //绑定初始化ButterKnife
+        ButterKnife.bind(this);
+        al_loginBtn.setText("验证下Butterknife");
     }
 
     /**
