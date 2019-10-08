@@ -31,6 +31,8 @@ ext {
 
             arouterApiVersion      : "1.5.0",
             arouterCompilerVersion : "1.2.2",
+
+            eventbusVersion        : "3.1.1",
     ]
 
     dependencies = [
@@ -56,5 +58,7 @@ ext {
             //            //黄油刀
             //            "butterknife"         : "com.jakewharton:butterknife:${versions["butterknifeVersion"]}",
             //            "butterknife_compiler": "com.jakewharton:butterknife-compiler:${versions["butterknifeVersion"]}"
+
+            "eventbus"        : "org.greenrobot:eventbus:${versions["eventbusVersion"]}",
     ]
 }
