@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "27.0.3"
+
+
+    defaultConfig {
+        applicationId "com.skl.virtualapkpluginapk"
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("keysotreya")
+            storePassword "keysotreya"
+            keyAlias "keysotreya"
+            keyPassword "keysotreya"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+
+}
+
+apply plugin: 'com.didi.virtualapk.plugin'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+
+virtualApk {
+    packageId = 0x6f             // The package id of Resources. 理论上这个packageId的取值范围应为[0x00,0x7f)，然而0x01、0x02等等已经被系统应用占用，具体占用多少不得而知，因此尽量选择偏大且足够分配给所有插件使用的数字
+    targetHost='../../VirtualApkDemo/app'          // The path of application module in host project.
+    applyHostMapping = true      // [Optional] Default value is true.
+}
