@@ -1,0 +1,25 @@
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+
+> Task :app:transformClassesWithAutoPatchTransformForRelease FAILED
+================autoPatch start================
+autopatch read all class file cost 0.122 second
+check all class cost 0.302 second, class count: 1416
+addPatchMethodAndModifiedClass pint methodmap key is   com.skl.hotfixtest.FileUtil.copyFilesFromAssets(android.content.Context,java.lang.String,java.lang.String,java.lang.String)  value is    1
+key is   com.skl.hotfixtest.MainActivity.onCreate(android.os.Bundle)  value is    2
+key is   com.skl.hotfixtest.MainActivity.getFuction(android.view.View)  value is    3
+key is   com.skl.hotfixtest.MainActivity$1.fetchPatchList(android.content.Context)  value is    4
+key is   com.skl.hotfixtest.MainActivity$2.onPatchListFetched(boolean,boolean,java.util.List)  value is    5
+key is   com.skl.hotfixtest.MainActivity$2.onPatchFetched(boolean,boolean,com.meituan.robust.Patch)  value is    6
+key is   com.skl.hotfixtest.MainActivity$2.onPatchApplied(boolean,com.meituan.robust.Patch)  value is    7
+key is   com.skl.hotfixtest.MainActivity$2.logNotify(java.lang.String,java.lang.String)  value is    8
+key is   com.skl.hotfixtest.MainActivity$2.exceptionNotify(java.lang.Throwable,java.lang.String)  value is    9
+key is   com.skl.hotfixtest.SystemUtils.getCacheDirectory(android.content.Context,java.lang.String)  value is    10
+key is   com.skl.hotfixtest.SystemUtils.getExternalCacheDirectory(android.content.Context,java.lang.String)  value is    11
+key is   com.skl.hotfixtest.SystemUtils.getInternalCacheDirectory(android.content.Context,java.lang.String)  value is    12
+
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+22 actionable tasks: 21 executed, 1 up-to-date
