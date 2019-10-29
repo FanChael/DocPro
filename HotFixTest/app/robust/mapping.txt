@@ -10639,7 +10639,9 @@ com.meituan.robust.utils.PatchTemplate -> com.meituan.robust.utils.PatchTemplate
     boolean isSupport(java.lang.String,java.lang.Object[]) -> isSupport
     java.lang.Object fixObj(java.lang.Object) -> fixObj
     void <clinit>() -> <clinit>
-com.skl.hotfixtest.FileUtil -> com.skl.hotfixtest.a:
+com.skl.hotfixtest.BadClass -> com.skl.hotfixtest.a:
+    com.meituan.robust.ChangeQuickRedirect changeQuickRedirect -> a
+com.skl.hotfixtest.FileUtil -> com.skl.hotfixtest.b:
     com.meituan.robust.ChangeQuickRedirect changeQuickRedirect -> a
     java.lang.String copyFilesFromAssets(android.content.Context,java.lang.String,java.lang.String,java.lang.String) -> a
 com.skl.hotfixtest.MainActivity -> com.skl.hotfixtest.MainActivity:
@@ -10663,5 +10665,5 @@ com.skl.hotfixtest.MainActivity$2 -> com.skl.hotfixtest.MainActivity$2:
     void onPatchApplied(boolean,com.meituan.robust.Patch) -> onPatchApplied
     void logNotify(java.lang.String,java.lang.String) -> logNotify
     void exceptionNotify(java.lang.Throwable,java.lang.String) -> exceptionNotify
-com.skl.hotfixtest.SystemUtils -> com.skl.hotfixtest.b:
+com.skl.hotfixtest.SystemUtils -> com.skl.hotfixtest.c:
     com.meituan.robust.ChangeQuickRedirect changeQuickRedirect -> a

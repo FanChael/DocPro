@@ -100,7 +100,6 @@ public class MainActivity extends AppCompatActivity {
      * @param view
      */
     public void getFuction(View view) {
-        NeedFixFunction needFixFunction  = new NeedFixFunction();
-        needFixFunction.getMaxNumber(10.0f);
+        BadClass.badMethod();
     }
 }
