@@ -1,3 +1,21 @@
+Google API：https://developer.android.google.cn  
+
+著名公司:  
+阿里技术分享：http://club.alibabatech.org/  
+阿里开源：https://github.com/alibaba  
+云栖社区：http://yq.aliyun.com  
+腾讯开源：http://isux.tencent.com/  
+腾讯大学：http://daxue.qq.com/  
+
+著名团队:  
+美团：http://tech.meituan.com/  
+360：http://blogs.360.cn/  
+QQ：http://dev.qq.com/  
+手淘：https://yq.aliyun.com/teams/13  
+国外团队：http://dwz.cn/5FQ8yP   
+
+相关好用的库(根据反馈更新和完善):  
+
 ### ---------------------导航类-----------------------------------
 
 https://github.com/forvv231/EasyNavigation     **Android底部导航栏几行代码实现Tab导航（随意定制加号，带红点消息提示）** 
@@ -17,6 +35,10 @@ https://github.com/Hankkin/PageLayoutDemo   **一款简单的page切换 空布�
 ### ---------------------动画类-----------------------------------
 
 https://github.com/WakeHao/TransitionExample  **过渡动画** 
+
+### ---------------------相机/相册-----------------------------------
+
+https://github.com/LuckSiege/PictureSelector  **Picture Selector Library for Android or 多图片选择器** 
 
 ### --------------------组件化-----------------------------------
 
