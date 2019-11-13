@@ -1,18 +1,22 @@
 Google API：https://developer.android.google.cn  
 
-著名公司:  
+著名公司:   
 阿里技术分享：http://club.alibabatech.org/  
 阿里开源：https://github.com/alibaba  
 云栖社区：http://yq.aliyun.com  
 腾讯开源：http://isux.tencent.com/  
 腾讯大学：http://daxue.qq.com/  
 
-著名团队:  
+著名团队:   
 美团：http://tech.meituan.com/  
 360：http://blogs.360.cn/  
 QQ：http://dev.qq.com/  
 手淘：https://yq.aliyun.com/teams/13  
 国外团队：http://dwz.cn/5FQ8yP   
+
+小工具:  
+友盟设备统计: https://compass.umeng.com/trend?spm=a211g2.11806243.1167048.1.2fac51a40KDeaW  
+App网络检测: https://github.com/jgilfelt/chuck  
 
 相关好用的库(根据反馈更新和完善):  
 
