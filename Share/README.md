@@ -44,6 +44,11 @@ https://github.com/WakeHao/TransitionExample  **过渡动画**
 
 https://github.com/LuckSiege/PictureSelector  **Picture Selector Library for Android or 多图片选择器** 
 
+### ---------------------视频-----------------------------------
+
+https://github.com/google/ExoPlayer  **google官方播放器库**  
+https://github.com/CarGuo/GSYVideoPlayer  **基于IJKPlayer（兼容系统MediaPlayer与EXOPlayer2）**  
+
 ### --------------------组件化-----------------------------------
 
 https://github.com/yangchong211/LifeHelper  **组件化综合案例，包含微信新闻，头条视频，美女图片，百度音乐，干活集中营，玩Android，豆瓣读书电影** 
