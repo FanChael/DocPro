@@ -18,6 +18,17 @@ QQ：http://dev.qq.com/
 友盟设备统计: https://compass.umeng.com/trend?spm=a211g2.11806243.1167048.1.2fac51a40KDeaW  
 App网络检测: https://github.com/jgilfelt/chuck  
 
+<table border="1" cellspacing="10">
+  <tr>
+    <th>QQ高级技术交流群</th>
+    <th>坑盘技术资料</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/FanChael/DocPro/blob/master/Share/temp_qrcode_share_574181465.png" width="162" height="222"/></td>
+    <td><img src="https://github.com/FanChael/DocPro/blob/master/Share/Group.png" width="274" height="342"/></td>
+  </tr>
+</table> 
+
 相关好用的库(根据反馈更新和完善):  
 
 ### ---------------------导航类-----------------------------------
