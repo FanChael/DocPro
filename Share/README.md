@@ -18,6 +18,9 @@ QQ：http://dev.qq.com/
 友盟设备统计: https://compass.umeng.com/trend?spm=a211g2.11806243.1167048.1.2fac51a40KDeaW  
 App网络检测: https://github.com/jgilfelt/chuck  
 
+小经验:  
+Android资源命名建议： https://github.com/FanChael/DocPro/blob/master/Share/android_res_rename.md  
+
 <table border="1" cellspacing="10">
   <tr>
     <th>QQ高级技术交流群</th>
