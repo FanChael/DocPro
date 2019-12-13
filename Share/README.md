@@ -38,7 +38,13 @@ AndroidQ适配指南1: https://www.jianshu.com/p/d79c2ee86b2a
 
 ### ---------------------导航类-----------------------------------
 
-https://github.com/forvv231/EasyNavigation     **Android底部导航栏几行代码实现Tab导航（随意定制加号，带红点消息提示）** 
+https://github.com/forvv231/EasyNavigation     **Android底部导航栏几行代码实现Tab导航（随意定制加号，带红点消息提示）**   
+
+https://github.com/zaaach/TransformersLayout     **App金刚区导航菜单，类似淘宝、QQ音乐等APP导航，方格布局横向滑动翻页带滚动条**   
+
+### ---------------------弹窗-----------------------------------
+
+https://github.com/razerdp/BasePopup    **PopupWindows框架库** 
 
 ### ---------------------授权登录-----------------------------------
 
