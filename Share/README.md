@@ -53,9 +53,19 @@ https://github.com/xuexiangjys/XUpdate **版本升级**
 https://github.com/zaaach/CityPicker    **城市选择、定位、搜索及右侧字母导航，类似美团 百度糯米 饿了么等APP选择城市功能**     
 https://github.com/gzu-liyujiang/AndroidPicker  **日期选择器、时间选择器、单项选择器、双项选择器、城市地址选择器、车牌号选择器、数字选择器、星座选择器、生肖选择器、颜色选择器、文件选择器、目录选择器**   
 
-### ---------------------Banner轮播-----------------------------------
+### ---------------------轮播/指示器-----------------------------------
 
 https://github.com/youth5201314/banner   **Android广告图片轮播控件，建议导入module自行扩展更方便项目，有问题可以咨询**   
+https://github.com/hackware1993/MagicIndicator   **fragment切换指示器**     
+
+### ---------------------刷新类-----------------------------------
+
+https://github.com/scwang90/SmartRefreshLayout   **Android智能下拉刷新框架 下拉刷新、上拉加载、二级刷新、淘宝二楼**     
+
+### ---------------------文件/工具类-----------------------------------
+
+https://github.com/barteksc/AndroidPdfViewer   **加载pdf**   
+https://github.com/Blankj/AndroidUtilCode  **工具类 Android developers should collect the following utils(updating).**    
 
 ### ---------------------权限相关-----------------------------------
 
@@ -86,19 +96,31 @@ https://github.com/PhilJay/MPAndroidChart   **曲线图**
 
 https://github.com/WakeHao/TransitionExample  **过渡动画**   
 https://github.com/tumblr/Backboard  **弹簧动画库**   
+https://github.com/ybq/Android-SpinKit **按钮加载等待动画**   
 
-### ---------------------相机/相册-----------------------------------
+### ---------------------相机/相册/头像-----------------------------------
 
 https://github.com/LuckSiege/PictureSelector  **Picture Selector Library for Android or 多图片选择器**    
+https://github.com/hdodenhof/CircleImageView  **圆角头像 A circular ImageView for Android**   
+
+### ---------------------扫描/识别类-----------------------------------
+
+https://github.com/jenly1314/ZXingLite  **ZXing的精简版，优化扫码和生成二维码/条形码功能**      
 
 ### ---------------------视频-----------------------------------
 
 https://github.com/google/ExoPlayer  **google官方播放器库**    
 https://github.com/CarGuo/GSYVideoPlayer  **基于IJKPlayer（兼容系统MediaPlayer与EXOPlayer2）**    
 
-### ---------------------网络请求Rx家族封装-----------------------------------
+### ---------------------网络相关-----------------------------------
 
-https://github.com/zhou-you/RxEasyHttp  **网络请求**    
+https://github.com/zhou-you/RxEasyHttp  **网络请求**      
+https://github.com/franmontiel/PersistentCookieJar  **持久化Cookie、自动管理cookie**     
+
+### ---------------------数据类-----------------------------------
+
+https://github.com/alibaba/fastjson  **阿里json库，针对性做了优化，更符合国人。同时兼容一些可以理解的错误**   
+https://github.com/promeG/TinyPinyin  **适用于Java和Android的快速、低内存占用的汉字转拼音库。**    
 
 ### --------------------组件化-----------------------------------
 
@@ -107,6 +129,10 @@ https://github.com/yangchong211/LifeHelper  **组件化综合案例，包含微�
 ### --------------------插件化----------------------------------
 
 https://github.com/wequick/Small    **最轻巧的跨平台插件化框架。**   
+
+### --------------------性能相关----------------------------------
+
+https://square.github.io/leakcanary    **Square公司内存泄露检测利器**       
 
 ### ---------------------面试类-----------------------------------
 
