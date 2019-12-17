@@ -45,14 +45,29 @@ https://github.com/zaaach/TransformersLayout     **App金刚区导航菜单，�
 ### ---------------------弹窗-----------------------------------  
 
 https://github.com/razerdp/BasePopup    **PopupWindows框架库** 
+https://github.com/sd6352051/NiftyDialogEffects **Dialog开源框架** 
+https://github.com/xuexiangjys/XUpdate **版本升级**  
 
-### ---------------------地区选择-----------------------------------  
+### ---------------------选择联动-----------------------------------  
 
 https://github.com/zaaach/CityPicker    **城市选择、定位、搜索及右侧字母导航，类似美团 百度糯米 饿了么等APP选择城市功能** 
+https://github.com/gzu-liyujiang/AndroidPicker  **https://github.com/gzu-liyujiang/AndroidPicker** 
+
+### ---------------------Banner轮播-----------------------------------
+
+https://github.com/youth5201314/banner   **Android广告图片轮播控件，建议导入module自行扩展更方便项目，有问题可以咨询** 
+
+### ---------------------权限相关-----------------------------------
+
+https://github.com/googlesamples/easypermissions   **动态权限库** 
 
 ### ---------------------授权登录-----------------------------------
 
 https://github.com/justauth/JustAuth    **史上最全的整合第三方登录的开源库** 
+
+### ---------------------通知类-----------------------------------
+
+https://github.com/gongwen/MarqueeViewLibrary    **广播翻滚** 
 
 ### ---------------------效果类-----------------------------------
 
@@ -61,19 +76,29 @@ https://github.com/lihangleo2/ShadowLayout    **万能阴影布局**
 ### ---------------------状态类-----------------------------------
 
 https://github.com/Hankkin/PageLayoutDemo   **一款简单的page切换 空布局、错误布局、加载布局，支持一键配置、定义，不需要xml编写** 
+https://github.com/gyf-dev/ImmersionBar **沉浸式状态栏** 
+
+### ---------------------图表-----------------------------------
+
+https://github.com/PhilJay/MPAndroidChart   **曲线图** 
 
 ### ---------------------动画类-----------------------------------
 
 https://github.com/WakeHao/TransitionExample  **过渡动画** 
+https://github.com/tumblr/Backboard  **弹簧动画库** 
 
 ### ---------------------相机/相册-----------------------------------
 
-https://github.com/LuckSiege/PictureSelector  **Picture Selector Library for Android or 多图片选择器** 
+https://github.com/LuckSiege/PictureSelector  **Picture Selector Library for Android or 多图片选择器**  
 
 ### ---------------------视频-----------------------------------
 
 https://github.com/google/ExoPlayer  **google官方播放器库**  
 https://github.com/CarGuo/GSYVideoPlayer  **基于IJKPlayer（兼容系统MediaPlayer与EXOPlayer2）**  
+
+### ---------------------网络请求Rx家族封装-----------------------------------
+
+https://github.com/zhou-you/RxEasyHttp  **网络请求**  
 
 ### --------------------组件化-----------------------------------
 
