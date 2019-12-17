@@ -51,7 +51,7 @@ https://github.com/xuexiangjys/XUpdate **版本升级**
 ### ---------------------选择联动-----------------------------------  
 
 https://github.com/zaaach/CityPicker    **城市选择、定位、搜索及右侧字母导航，类似美团 百度糯米 饿了么等APP选择城市功能**     
-https://github.com/gzu-liyujiang/AndroidPicker  **https://github.com/gzu-liyujiang/AndroidPicker**   
+https://github.com/gzu-liyujiang/AndroidPicker  **日期选择器、时间选择器、单项选择器、双项选择器、城市地址选择器、车牌号选择器、数字选择器、星座选择器、生肖选择器、颜色选择器、文件选择器、目录选择器**   
 
 ### ---------------------Banner轮播-----------------------------------
 
