@@ -128,7 +128,9 @@ https://github.com/yangchong211/LifeHelper  **组件化综合案例，包含微�
 
 ### --------------------插件化----------------------------------
 
-https://github.com/wequick/Small    **最轻巧的跨平台插件化框架。**   
+https://github.com/wequick/Small    **最轻巧的跨平台插件化框架，可以作为学习来看，目前非主流了**  
+https://zhuanlan.zhihu.com/p/88097003  **Android-热修复技术框架如何选择？记录一波...**    
+https://zhuanlan.zhihu.com/p/86261306  **Android/Java-插件化-相关预了解、入门、实践推荐链接(一定优先级及遇到问题解决链接参考)**    
 
 ### --------------------性能相关----------------------------------
 
