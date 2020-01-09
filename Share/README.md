@@ -15,6 +15,7 @@ QQ：http://dev.qq.com/
 国外团队：http://dwz.cn/5FQ8yP   
 
 小工具:  
+Png资源在线压缩: https://tinypng.com - 可以压缩下你的图片资源，apk瘦身利器  
 友盟设备统计: https://compass.umeng.com/trend?spm=a211g2.11806243.1167048.1.2fac51a40KDeaW  
 App网络检测: https://github.com/jgilfelt/chuck  
 
