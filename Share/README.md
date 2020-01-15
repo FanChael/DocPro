@@ -89,9 +89,10 @@ https://github.com/lihangleo2/ShadowLayout    **万能阴影布局**
 https://github.com/Hankkin/PageLayoutDemo   **一款简单的page切换 空布局、错误布局、加载布局，支持一键配置、定义，不需要xml编写**   
 https://github.com/gyf-dev/ImmersionBar **沉浸式状态栏**   
 
-### ---------------------图表-----------------------------------
+### ---------------------图表/图谱-----------------------------------
 
 https://github.com/PhilJay/MPAndroidChart   **曲线图**   
+https://github.com/ssj64260/FamailyTreeView **家族图谱-学习研究自行修改**     
 
 ### ---------------------动画类-----------------------------------
 
