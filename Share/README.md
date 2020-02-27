@@ -31,10 +31,12 @@ http://www.freesion.com/article/3647227207/
 <table border="1" cellspacing="10">
   <tr>
     <th>QQ高级技术交流群</th>
+    <th>QQ高级技术交流群2</th>
     <th>坑盘技术资料</th>
   </tr>
   <tr>
     <td><img src="https://github.com/FanChael/DocPro/blob/master/Share/temp_qrcode_share_574181465.png" width="162" height="222"/></td>
+    <td><img src="https://raw.githubusercontent.com/FanChael/DocPro/master/Share/temp_qrcode_share_752871516.png" width="162" height="222"/></td>
     <td><img src="https://github.com/FanChael/DocPro/blob/master/Share/Group.png" width="274" height="342"/></td>
   </tr>
 </table> 
