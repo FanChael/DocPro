@@ -144,9 +144,14 @@ https://zhuanlan.zhihu.com/p/86261306  **Android/Java-插件化-相关预了解�
 
 https://square.github.io/leakcanary    **Square公司内存泄露检测利器**       
 
-### ---------------------学习类-----------------------------------
+### ---------------------学习类/架构-----------------------------------
 
 https://www.jianshu.com/p/b35e12c9b856   **小白探索系列之Android中.so库的制作与调用- 目前我用来做so公钥存储+本地签名校验sha1**   
+
+https://www.jianshu.com/p/bd9016418af2  **DataBinding 从入门到进阶->学习点**  
+https://www.jianshu.com/p/6cbcca7d0d9a  **MVVM实战Demo --- 基于DataBinding->学习点**  
+https://www.jianshu.com/p/bd583883cb68  **DataBinding->学习点**  
+https://www.jianshu.com/p/e7628d6e6f61  **ViewModel+LiveData+Repository->推荐参考mvvm结构** 
 
 ### ---------------------面试类-----------------------------------
 
