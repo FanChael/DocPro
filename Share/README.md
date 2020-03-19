@@ -13,6 +13,7 @@ Google API：https://developer.android.google.cn
 QQ：http://dev.qq.com/  
 手淘：https://yq.aliyun.com/teams/13  
 国外团队：http://dwz.cn/5FQ8yP   
+知识图谱: http://naotu.baidu.com/file/b174028c6014bd577d9452e3d62e71d0?token=af3ef2397dedeb77(群里讨论记录，持续完善)    
 
 小工具:  
 Png资源在线压缩: https://tinypng.com - 可以压缩下你的图片资源，apk瘦身利器  
