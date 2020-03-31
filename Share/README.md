@@ -56,6 +56,7 @@ https://github.com/zaaach/TransformersLayout     **App金刚区导航菜单，�
 https://github.com/razerdp/BasePopup    **PopupWindows框架库**   
 https://github.com/sd6352051/NiftyDialogEffects **Dialog开源框架**   
 https://github.com/xuexiangjys/XUpdate **版本升级**    
+https://github.com/li-xiaojun/XPopup **xPopupWindow*     
 
 ### ---------------------选择联动-----------------------------------  
 
@@ -95,7 +96,8 @@ https://github.com/lihangleo2/ShadowLayout    **万能阴影布局**
 ### ---------------------状态类-----------------------------------
 
 https://github.com/Hankkin/PageLayoutDemo   **一款简单的page切换 空布局、错误布局、加载布局，支持一键配置、定义，不需要xml编写**   
-https://github.com/gyf-dev/ImmersionBar **沉浸式状态栏**   
+https://github.com/gyf-dev/ImmersionBar **沉浸式状态栏** 
+https://github.com/laobie/StatusBarUtil **沉浸式状态栏工具** 
 
 ### ---------------------图表/图谱-----------------------------------
 
@@ -107,6 +109,7 @@ https://github.com/ssj64260/FamailyTreeView **家族图谱-学习研究自行修
 https://github.com/WakeHao/TransitionExample  **过渡动画**   
 https://github.com/tumblr/Backboard  **弹簧动画库**   
 https://github.com/ybq/Android-SpinKit **按钮加载等待动画**   
+https://github.com/jd-alexander/LikeButton **点赞按钮**  
 
 ### ---------------------相机/相册/头像-----------------------------------
 
@@ -121,6 +124,7 @@ https://github.com/jenly1314/ZXingLite  **ZXing的精简版，优化扫码和生
 
 https://github.com/google/ExoPlayer  **google官方播放器库**    
 https://github.com/CarGuo/GSYVideoPlayer  **基于IJKPlayer（兼容系统MediaPlayer与EXOPlayer2）**    
+https://github.com/Bilibili/DanmakuFlameMaster **直播弹幕效果**  
 
 ### ---------------------网络相关-----------------------------------
 
@@ -156,6 +160,7 @@ https://www.jianshu.com/p/bd9016418af2  **DataBinding 从入门到进阶->学习
 https://www.jianshu.com/p/6cbcca7d0d9a  **MVVM实战Demo --- 基于DataBinding->学习点**  
 https://www.jianshu.com/p/bd583883cb68  **DataBinding->学习点**  
 https://www.jianshu.com/p/e7628d6e6f61  **ViewModel+LiveData+Repository->推荐参考mvvm结构** 
+https://github.com/GcsSloop/AndroidNote **安卓学习笔记 http://www.gcssloop.com/#blog**
 
 ### ---------------------面试类-----------------------------------
 
@@ -169,15 +174,7 @@ https://juejin.im/post/5c8211fee51d453a136e36b0#heading-56   **2019最全面试�
  
 ###### Android 仿抖音系列之视频播放列表和评论列表
 
-https://github.com/wuqingsen/DouYinWu
-
- 
-
-https://github.com/laobie/StatusBarUtil
-
-https://github.com/li-xiaojun/XPopup
-
- 
+https://github.com/wuqingsen/DouYinWu 
 
 ###### 干货：
 
@@ -255,35 +252,22 @@ https://github.com/DingMouRen/LayoutManagerGroup
 
 https://github.com/likeadog/LikeView
 
-https://github.com/jd-alexander/LikeButton
-
- 
 
 ###### 直播点赞动画：
 
 https://github.com/anenn/FlowLikeView
-
-https://github.com/zhaoyang21cn/Android_Suixinbo
 
 https://www.jb51.net/jiaoben/605973.html
 
 https://www.jianshu.com/p/7e4da38ffde6
 
 http://www.codesocang.com/gn-animation/36586.html
-
-###### 直播弹幕效果：
-
-https://github.com/Bilibili/DanmakuFlameMaster
-
  
 
 ###### 自定义ViewGroup实现堆叠头像的点赞Layout：
 
-https://github.com/GcsSloop/AndroidNote
-
 https://github.com/LineChen/PileLayout
 
- 
 
 ###### 自定义View之酷炫的波浪泡沫：
 
