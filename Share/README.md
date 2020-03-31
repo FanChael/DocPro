@@ -162,4 +162,131 @@ https://www.jianshu.com/p/e7628d6e6f61  **ViewModel+LiveData+Repository->推荐�
 https://juejin.im/post/5c8211fee51d453a136e36b0#heading-56   **2019最全面试题** 
 
 
- **_TODO 欢迎持续完善添加_** 
+ **_TODO 欢迎持续完善添加_**
+ 
+
+ **Reproduction**
+ 
+###### Android 仿抖音系列之视频播放列表和评论列表
+
+https://github.com/wuqingsen/DouYinWu
+
+ 
+
+https://github.com/laobie/StatusBarUtil
+
+https://github.com/li-xiaojun/XPopup
+
+ 
+
+###### 干货：
+
+https://www.jianshu.com/p/4caff07b6dca
+
+https://github.com/lygttpod/AndroidCustomView
+
+https://github.com/Dalanger/MyBaseProject
+
+https://github.com/little762/LeeSample
+
+https://www.jianshu.com/p/14d2e36f9b91
+
+https://github.com/Bamboy120315/bamboy
+
+https://github.com/crazyqiang/AndroidStudy
+
+https://github.com/dalong982242260/DrawLayoutMenu
+
+https://www.cnblogs.com/xgjblog/p/6758208.html
+
+https://github.com/hacknife/CarouselBanner
+
+https://github.com/Azoft/CarouselLayoutManager
+
+###### 使用 RecyclerView，自定义 LayoutManager 实现旋转木马相册效果
+
+https://github.com/ChenLittlePing/RecyclerCoverFlow
+
+https://github.com/wuqingsen/ImageCarousel
+
+https://github.com/luhuan97/ImageCarousel
+
+https://www.cnblogs.com/xurui1995/p/5759371.html
+
+https://blog.csdn.net/wangwasdf/article/details/73603912
+
+https://github.com/qwertyezi/meizhi
+
+https://github.com/xiaokun19931126/Meizi
+
+https://github.com/zhanghanxuan123/Meizhi
+
+https://github.com/niuxdexiaobai/Meizhi
+
+https://www.jianshu.com/p/c4f9f5ccc0e1
+
+https://github.com/jack921/GankNew
+
+https://github.com/oxoooo/mr-mantou-android
+
+###### 仿今日头条评论时键盘自动弹出的效果:
+
+https://blog.csdn.net/wangwasdf/article/details/73603912
+
+https://blog.csdn.net/u013653230/article/details/78088207
+
+https://github.com/mmlovesyy/PopupWindowDemo
+
+###### 双击飞小心心-仿抖音点赞：
+
+https://github.com/liumaomao0209/LoveDemo
+
+https://www.jianshu.com/p/1d17c38a3db1
+
+https://www.jianshu.com/p/19a2e3e7b686
+
+https://github.com/PangHaHa12138/DouyinDemo
+
+https://github.com/selfconzrr/LikeAnimator
+
+https://blog.csdn.net/m0_37700275/article/details/100590897
+
+https://github.com/DingMouRen/LayoutManagerGroup
+
+https://github.com/likeadog/LikeView
+
+https://github.com/jd-alexander/LikeButton
+
+ 
+
+###### 直播点赞动画：
+
+https://github.com/anenn/FlowLikeView
+
+https://github.com/zhaoyang21cn/Android_Suixinbo
+
+https://www.jb51.net/jiaoben/605973.html
+
+https://www.jianshu.com/p/7e4da38ffde6
+
+http://www.codesocang.com/gn-animation/36586.html
+
+###### 直播弹幕效果：
+
+https://github.com/Bilibili/DanmakuFlameMaster
+
+ 
+
+###### 自定义ViewGroup实现堆叠头像的点赞Layout：
+
+https://github.com/GcsSloop/AndroidNote
+
+https://github.com/LineChen/PileLayout
+
+ 
+
+###### 自定义View之酷炫的波浪泡沫：
+
+https://www.jianshu.com/p/91ff940aece1
+
+https://www.jianshu.com/p/c1e17e52e113
