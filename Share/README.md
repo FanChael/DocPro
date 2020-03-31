@@ -135,6 +135,8 @@ https://github.com/promeG/TinyPinyin  **适用于Java和Android的快速、低�
 ### --------------------组件化-----------------------------------
 
 https://github.com/yangchong211/LifeHelper  **组件化综合案例，包含微信新闻，头条视频，美女图片，百度音乐，干活集中营，玩Android，豆瓣读书电影** 
+https://gitee.com/heyclock/mvvm_modularization  **组件化工程实践0.1版_可供参考，有问题可以指教完善** 
+https://zhuanlan.zhihu.com/p/121654671 - **组件化工程实践0.1过程中相关官方三方参考链接，供学习**   
 
 ### --------------------插件化----------------------------------
 
