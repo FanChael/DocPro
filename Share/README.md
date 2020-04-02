@@ -15,6 +15,9 @@ QQ：http://dev.qq.com/
 国外团队：http://dwz.cn/5FQ8yP   
 知识图谱: http://naotu.baidu.com/file/b174028c6014bd577d9452e3d62e71d0?token=af3ef2397dedeb77(群里讨论记录，持续完善)    
 
+免费书籍:  
+http://akaedu.github.io/book/index.html - Linux C编程一站式学习(个人比较推荐，从入门到放弃，从c到C语言本质，从数据结构到 Linux系统，涉及进程，信号，socket，tcp等。花个一两年研究，不吃亏)    
+
 小工具:  
 Png资源在线压缩: https://tinypng.com - 可以压缩下你的图片资源，apk瘦身利器  
 友盟设备统计: https://compass.umeng.com/trend?spm=a211g2.11806243.1167048.1.2fac51a40KDeaW  
