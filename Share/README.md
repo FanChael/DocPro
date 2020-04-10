@@ -29,6 +29,10 @@ Android资源命名建议： https://github.com/FanChael/DocPro/blob/master/Shar
 AndroidQ新特性: https://developer.android.google.cn/about/versions/10/migration?hl=zh-cn  
 AndroidQ适配指南1: https://www.jianshu.com/p/d79c2ee86b2a  
 
+综合:  
+https://www.jianshu.com/p/6be91ee932a7 Android项目120项  
+https://www.ctolib.com/cheatsheets-Android-ch.html  Android 流行框架查速表  
+
 隐私政策/用户协议简单制作参考链接:  
 https://www.jianshu.com/p/6099cc5eee2f  
 http://www.freesion.com/article/3647227207/  
