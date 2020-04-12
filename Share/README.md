@@ -100,6 +100,10 @@ https://github.com/gongwen/MarqueeViewLibrary    **广播翻滚**
 
 https://github.com/lihangleo2/ShadowLayout    **万能阴影布局** 
 
+### --------------------UI控件类-----------------------------------  
+
+https://github.com/donkingliang/LabelsView  **标签控件**  
+
 ### ---------------------状态类-----------------------------------
 
 https://github.com/Hankkin/PageLayoutDemo   **一款简单的page切换 空布局、错误布局、加载布局，支持一键配置、定义，不需要xml编写**   
