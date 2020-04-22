@@ -174,8 +174,9 @@ https://www.jianshu.com/p/b35e12c9b856   **小白探索系列之Android中.so库
 https://www.jianshu.com/p/bd9016418af2  **DataBinding 从入门到进阶->学习点**  
 https://www.jianshu.com/p/6cbcca7d0d9a  **MVVM实战Demo --- 基于DataBinding->学习点**  
 https://www.jianshu.com/p/bd583883cb68  **DataBinding->学习点**  
-https://www.jianshu.com/p/e7628d6e6f61  **ViewModel+LiveData+Repository->推荐参考mvvm结构** 
-https://github.com/GcsSloop/AndroidNote **安卓学习笔记 http://www.gcssloop.com/#blog**
+https://www.jianshu.com/p/e7628d6e6f61  **ViewModel+LiveData+Repository->推荐参考mvvm结构**   
+https://gitee.com/heyclock/mvvm_modularization **入门完善MVVM+最新相关组件+BaseAdapter+自定义刷新框架简单版+等**  
+https://github.com/GcsSloop/AndroidNote **安卓学习笔记 http://www.gcssloop.com/#blog**  
 
 ### ---------------------面试类-----------------------------------
 
