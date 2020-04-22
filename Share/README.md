@@ -36,7 +36,10 @@ https://github.com/SenhLinsh/Android-Hot-Libraries  收集总结 Android 项目�
 
 隐私政策/用户协议简单制作参考链接:  
 https://www.jianshu.com/p/6099cc5eee2f  
-http://www.freesion.com/article/3647227207/  
+http://www.freesion.com/article/3647227207/    
+
+打包相关:  
+https://www.jianshu.com/p/f5605a6a94eb 多渠道打包参考  
 
 <table border="1" cellspacing="10">
   <tr>
