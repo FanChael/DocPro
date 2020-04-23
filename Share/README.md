@@ -41,6 +41,9 @@ http://www.freesion.com/article/3647227207/
 打包相关:  
 https://www.jianshu.com/p/f5605a6a94eb 多渠道打包参考  
 
+黑科技:  
+https://mp.weixin.qq.com/s/XXCOZ6yHulqeAb_nzaA42w - Android最强保活黑科技的最强技术实现(结合市面上其他的保活手段，尽量做到最全，存活几率相对会大些)    
+
 <table border="1" cellspacing="10">
   <tr>
     <th>QQ高级技术交流群</th>
