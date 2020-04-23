@@ -157,7 +157,7 @@ https://github.com/promeG/TinyPinyin  **适用于Java和Android的快速、低�
 ### --------------------组件化-----------------------------------
 
 https://github.com/yangchong211/LifeHelper  **组件化综合案例，包含微信新闻，头条视频，美女图片，百度音乐，干活集中营，玩Android，豆瓣读书电影**   
-https://gitee.com/heyclock/mvvm_modularization  **组件化工程实践0.1版_可供参考，有问题可以指教完善**   
+https://gitee.com/heyclock/mvvm_modularization  **组件化工程实践0.1版_可供参考，有问题可以指教完善MVVM**   
 https://zhuanlan.zhihu.com/p/121654671 - **组件化工程实践0.1过程中相关官方三方参考链接，供学习**     
 
 ### --------------------插件化----------------------------------
@@ -179,7 +179,7 @@ https://www.jianshu.com/p/6cbcca7d0d9a  **MVVM实战Demo --- 基于DataBinding->
 https://www.jianshu.com/p/bd583883cb68  **DataBinding->学习点**  
 https://www.jianshu.com/p/e7628d6e6f61  **ViewModel+LiveData+Repository->推荐参考mvvm结构**     
 https://github.com/GcsSloop/AndroidNote **安卓学习笔记 http://www.gcssloop.com/#blog**  
-https://zhuanlan.zhihu.com/p/47623850  **自定义View其中一篇，专栏有其他相关参考**    
+https://zhuanlan.zhihu.com/p/50325981  **Android-自定义View初步ALL流程总结篇 参考**    
 
 ### ---------------------面试类-----------------------------------
 
