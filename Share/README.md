@@ -179,7 +179,8 @@ https://www.jianshu.com/p/6cbcca7d0d9a  **MVVM实战Demo --- 基于DataBinding->
 https://www.jianshu.com/p/bd583883cb68  **DataBinding->学习点**  
 https://www.jianshu.com/p/e7628d6e6f61  **ViewModel+LiveData+Repository->推荐参考mvvm结构**     
 https://github.com/GcsSloop/AndroidNote **安卓学习笔记 http://www.gcssloop.com/#blog**  
-https://zhuanlan.zhihu.com/p/50325981  **Android-自定义View初步ALL流程总结篇 参考**    
+https://zhuanlan.zhihu.com/p/50325981  **Android-自定义View初步ALL流程总结篇 参考**      
+https://zhuanlan.zhihu.com/p/136384876  **Android-约束布局解读 参考**   
 
 ### ---------------------面试类-----------------------------------
 
