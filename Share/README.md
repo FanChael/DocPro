@@ -42,7 +42,10 @@ http://www.freesion.com/article/3647227207/
 https://www.jianshu.com/p/f5605a6a94eb 多渠道打包参考  
 
 黑科技:  
-https://mp.weixin.qq.com/s/XXCOZ6yHulqeAb_nzaA42w - Android最强保活黑科技的最强技术实现(结合市面上其他的保活手段，尽量做到最全，存活几率相对会大些)    
+https://mp.weixin.qq.com/s/XXCOZ6yHulqeAb_nzaA42w - Android最强保活黑科技的最强技术实现(结合市面上其他的保活手段，尽量做到最全，存活几率相对会大些)   
+
+工具技巧:  
+https://zhuanlan.zhihu.com/p/138950147 - 码云仓库代码如何同步到pull下来的github仓库  
 
 <table border="1" cellspacing="10">
   <tr>
@@ -181,6 +184,7 @@ https://www.jianshu.com/p/e7628d6e6f61  **ViewModel+LiveData+Repository->推荐�
 https://github.com/GcsSloop/AndroidNote **安卓学习笔记 http://www.gcssloop.com/#blog**  
 https://zhuanlan.zhihu.com/p/50325981  **Android-自定义View初步ALL流程总结篇 参考**      
 https://zhuanlan.zhihu.com/p/136384876  **Android-约束布局解读 参考**   
+https://github.com/FanChael/MVVM **MVVM组件化参考**  
 
 ### ---------------------面试类-----------------------------------
 
