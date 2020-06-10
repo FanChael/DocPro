@@ -61,6 +61,9 @@ https://zhuanlan.zhihu.com/p/138950147 - 码云仓库代码如何同步到pull�
 </table> 
 
 相关好用的库(根据反馈更新和完善):  
+### ---------------------事件总线-----------------------------------
+
+https://github.com/BugRui/LiveDataBus **基于LiveData实现的事件总线，具备生命周期感知，支持粘性，简洁稳定，不依赖于反射，轻量级 **  
 
 ### ---------------------导航类-----------------------------------
 
@@ -97,6 +100,7 @@ https://github.com/Blankj/AndroidUtilCode  **工具类 Android developers should
 ### ---------------------权限相关-----------------------------------
 
 https://github.com/googlesamples/easypermissions   **动态权限库**   
+https://github.com/BugRui/AndroidPermission   **动态权限库 使用方便快捷，兼容性好** 
 
 ### ---------------------授权登录-----------------------------------
 
@@ -136,6 +140,7 @@ https://github.com/jd-alexander/LikeButton **点赞按钮**
 
 https://github.com/LuckSiege/PictureSelector  **Picture Selector Library for Android or 多图片选择器**    
 https://github.com/hdodenhof/CircleImageView  **圆角头像 A circular ImageView for Android**   
+https://github.com/BugRui/CameraExtend  **Kotlin拍照和相册选择框架，基于PictureSelector二次封装，使用方便**    
 
 ### ---------------------扫描/识别类-----------------------------------
 
@@ -150,7 +155,8 @@ https://github.com/Bilibili/DanmakuFlameMaster **直播弹幕效果**
 ### ---------------------网络相关-----------------------------------
 
 https://github.com/zhou-you/RxEasyHttp  **网络请求**      
-https://github.com/franmontiel/PersistentCookieJar  **持久化Cookie、自动管理cookie**     
+https://github.com/franmontiel/PersistentCookieJar  **持久化Cookie、自动管理cookie**    
+https://github.com/BugRui/APIRequest **Retrofit+OkHttp网络请求 可扩展性强，支持添加LiveData扩展，具体可看Dmoe**  
 
 ### ---------------------数据类-----------------------------------
 
