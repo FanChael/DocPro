@@ -135,7 +135,8 @@ https://github.com/jd-alexander/LikeButton **点赞按钮**
 ### ---------------------相机/相册/头像-----------------------------------
 
 https://github.com/LuckSiege/PictureSelector  **Picture Selector Library for Android or 多图片选择器**    
-https://github.com/hdodenhof/CircleImageView  **圆角头像 A circular ImageView for Android**   
+https://github.com/hdodenhof/CircleImageView  **圆角头像 A circular ImageView for Android**  
+https://github.com/Yalantis/uCrop  **强大的图片裁剪**    
 
 ### ---------------------扫描/识别类-----------------------------------
 
