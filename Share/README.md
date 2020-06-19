@@ -46,6 +46,7 @@ https://mp.weixin.qq.com/s/XXCOZ6yHulqeAb_nzaA42w - Android最强保活黑科技
 
 工具技巧:  
 https://zhuanlan.zhihu.com/p/138950147 - 码云仓库代码如何同步到pull下来的github仓库  
+https://developer.android.google.cn/guide/components/intents-common?hl=zh-cn#top_of_page - 相册，拍照，电话等Intent，官方已经提供案例。建议尽量官方入手，能提升学习能力!  
 
 <table border="1" cellspacing="10">
   <tr>
