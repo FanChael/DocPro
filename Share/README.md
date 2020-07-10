@@ -76,6 +76,9 @@ https://github.com/sd6352051/NiftyDialogEffects **Dialog开源框架**
 https://github.com/xuexiangjys/XUpdate **版本升级**    
 https://github.com/li-xiaojun/XPopup **xPopupWindow*     
 
+### ---------------------键盘-----------------------------------   
+https://github.com/Jacksgong/JKeyboardPanelSwitch - Android键盘面板冲突 布局闪动处理方案)  
+
 ### ---------------------选择联动-----------------------------------  
 
 https://github.com/zaaach/CityPicker    **城市选择、定位、搜索及右侧字母导航，类似美团 百度糯米 饿了么等APP选择城市功能**     
