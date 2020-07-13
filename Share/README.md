@@ -116,7 +116,9 @@ https://github.com/gongwen/MarqueeViewLibrary    **广播翻滚**
 
 ### ---------------------效果类-----------------------------------
 
-https://github.com/lihangleo2/ShadowLayout    **万能阴影布局** 
+https://github.com/lihangleo2/ShadowLayout    **万能阴影布局**   
+https://juejin.im/post/5b50898ef265da0fa21a7f0f - **【Android珍藏】推荐10个炫酷的开源库**    
+https://www.jianshu.com/p/3f5865109b05 - **2020年GitHub 上那些优秀Android开源库，这里是Top10！**    
 
 ### --------------------UI控件类-----------------------------------  
 
