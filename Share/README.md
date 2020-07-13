@@ -67,7 +67,11 @@ https://developer.android.google.cn/guide/components/intents-common?hl=zh-cn#top
 
 https://github.com/forvv231/EasyNavigation     **Android底部导航栏几行代码实现Tab导航（随意定制加号，带红点消息提示）**     
 
-https://github.com/zaaach/TransformersLayout     **App金刚区导航菜单，类似淘宝、QQ音乐等APP导航，方格布局横向滑动翻页带滚动条**     
+https://github.com/zaaach/TransformersLayout     **App金刚区导航菜单，类似淘宝、QQ音乐等APP导航，方格布局横向滑动翻页带滚动条**   
+
+### ---------------------角标-----------------------------------    
+
+https://github.com/jimmysuncpt/AppBadge  **star不多，不予置评，供参考**         
 
 ### ---------------------弹窗-----------------------------------  
 
