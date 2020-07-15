@@ -150,7 +150,8 @@ https://github.com/Yalantis/uCrop  **强大的图片裁剪**
 
 ### ---------------------扫描/识别类-----------------------------------
 
-https://github.com/jenly1314/ZXingLite  **ZXing的精简版，优化扫码和生成二维码/条形码功能**      
+https://github.com/jenly1314/ZXingLite  **ZXing的精简版，优化扫码和生成二维码/条形码功能**   
+https://github.com/bingoogolapple/BGAQRCode-Android QRCode **扫描二维码、扫描条形码、相册获取图片后识别、生成带 Logo 二维码、支持微博微信 QQ 二维码扫描样式**    
 
 ### ---------------------视频-----------------------------------
 
