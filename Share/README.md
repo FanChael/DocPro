@@ -18,7 +18,7 @@ QQ：http://dev.qq.com/
 免费书籍:  
 http://akaedu.github.io/book/index.html - Linux C编程一站式学习(个人比较推荐，从入门到放弃，从c到C语言本质，从数据结构到 Linux系统，涉及进程，信号，socket，tcp等。花个一两年研究，不吃亏)    
 
-小工具:  
+小工具:  http://chuanpoxie.com/tools/  欢迎提交简洁好用的小利器!  
 Png资源在线压缩: https://tinypng.com - 可以压缩下你的图片资源，apk瘦身利器  
 友盟设备统计: https://compass.umeng.com/trend?spm=a211g2.11806243.1167048.1.2fac51a40KDeaW  
 App网络检测: https://github.com/jgilfelt/chuck  
