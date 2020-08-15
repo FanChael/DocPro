@@ -146,7 +146,9 @@ https://github.com/jd-alexander/LikeButton **点赞按钮**
 
 https://github.com/LuckSiege/PictureSelector  **Picture Selector Library for Android or 多图片选择器**    
 https://github.com/hdodenhof/CircleImageView  **圆角头像 A circular ImageView for Android**  
-https://github.com/Yalantis/uCrop  **强大的图片裁剪**    
+https://github.com/Yalantis/uCrop  **强大的图片裁剪**      
+https://github.com/Curzibn/Luban  **Android图片压缩工具，仿微信朋友圈压缩策略。**     
+https://github.com/JiangHaiYang01/WeChatPhoto **高仿微信朋友圈，点击查看大图，放大 缩小，可自定义**        
 
 ### ---------------------扫描/识别类-----------------------------------
 
